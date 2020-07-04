@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: efa56c116777d834a910d278b4f9e213
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8,
+      type: 2}
+  - TargetObjectParent: {instanceID: 0}
+  - ReplacementMat: {instanceID: 0}
+  - FloorObject: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
