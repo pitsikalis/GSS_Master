@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 85999566}
   - component: {fileID: 85999568}
   - component: {fileID: 85999567}
+  - component: {fileID: 85999569}
   m_Layer: 0
   m_Name: Camera Back
   m_TagString: MainCamera
@@ -204,7 +205,7 @@ Camera:
   m_GameObject: {fileID: 85999565}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -238,6 +239,35 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &85999569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85999565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FileName: Walk_Back_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Run_Animation\Camera
+    Back
+  TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
+  RenderWidth: 1920
+  RenderHeight: 1080
+  StepRender: 1
+  StepTime: 0.01
+  _FileCounter: 0
+  EnableAlphaShadow: 0
+  TargetObjectParent: {fileID: 0}
+  TargetObjects: []
+  ReplacementMat: {fileID: 2100000, guid: b914abb29e72a304b8b173467c844b6e, type: 2}
+  FloorObject: {fileID: 1427150329622786, guid: f6a9315642664ab408b75389902a9ee6,
+    type: 3}
+  FloorHeight: 0
+  ShadowIntensity: 0.6
 --- !u!1 &107971927
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,13 +279,14 @@ GameObject:
   - component: {fileID: 107971928}
   - component: {fileID: 107971930}
   - component: {fileID: 107971929}
+  - component: {fileID: 107971931}
   m_Layer: 0
   m_Name: Camera Right
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &107971928
 Transform:
   m_ObjectHideFlags: 0
@@ -289,7 +320,7 @@ Camera:
   m_GameObject: {fileID: 107971927}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -323,6 +354,35 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &107971931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107971927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FileName: Walk_Right_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Run_Animation\Camera
+    Right
+  TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
+  RenderWidth: 1920
+  RenderHeight: 1080
+  StepRender: 1
+  StepTime: 0.01
+  _FileCounter: 0
+  EnableAlphaShadow: 0
+  TargetObjectParent: {fileID: 0}
+  TargetObjects: []
+  ReplacementMat: {fileID: 2100000, guid: b914abb29e72a304b8b173467c844b6e, type: 2}
+  FloorObject: {fileID: 1427150329622786, guid: f6a9315642664ab408b75389902a9ee6,
+    type: 3}
+  FloorHeight: 0
+  ShadowIntensity: 0.6
 --- !u!1 &309800608
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,7 +401,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &309800609
 AudioListener:
   m_ObjectHideFlags: 0
@@ -359,7 +419,7 @@ Camera:
   m_GameObject: {fileID: 309800608}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -421,8 +481,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FileName: Capture
-  TargetFolder: _Tools/RenderCamera/Captures
+  FileName: Walk_Front_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Run_Animation\Camera
+    Front
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
   RenderHeight: 1080
@@ -931,7 +992,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &956568884
 Transform:
   m_ObjectHideFlags: 0
@@ -1024,7 +1085,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &959125782
 Transform:
   m_ObjectHideFlags: 0
@@ -1428,7 +1489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa968a954f9e73144a8cf2070db1ed83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RenderCameraTarget: {fileID: 309800612}
+  RenderCameraTarget: {fileID: 107971931}
 --- !u!1 &1119630057
 GameObject:
   m_ObjectHideFlags: 0
@@ -1624,6 +1685,7 @@ GameObject:
   - component: {fileID: 1325953232}
   - component: {fileID: 1325953234}
   - component: {fileID: 1325953233}
+  - component: {fileID: 1325953235}
   m_Layer: 0
   m_Name: Camera Left
   m_TagString: MainCamera
@@ -1664,7 +1726,7 @@ Camera:
   m_GameObject: {fileID: 1325953231}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -1698,6 +1760,35 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1325953235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325953231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FileName: Walk_Left_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Run_Animation\Camera
+    Left
+  TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
+  RenderWidth: 1920
+  RenderHeight: 1080
+  StepRender: 1
+  StepTime: 0.01
+  _FileCounter: 0
+  EnableAlphaShadow: 0
+  TargetObjectParent: {fileID: 0}
+  TargetObjects: []
+  ReplacementMat: {fileID: 2100000, guid: b914abb29e72a304b8b173467c844b6e, type: 2}
+  FloorObject: {fileID: 1427150329622786, guid: f6a9315642664ab408b75389902a9ee6,
+    type: 3}
+  FloorHeight: 0
+  ShadowIntensity: 0.6
 --- !u!1 &1328364686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,6 +2110,7 @@ GameObject:
   - component: {fileID: 1586669417}
   - component: {fileID: 1586669419}
   - component: {fileID: 1586669418}
+  - component: {fileID: 1586669420}
   m_Layer: 0
   m_Name: Camera Right
   m_TagString: MainCamera
@@ -2059,7 +2151,7 @@ Camera:
   m_GameObject: {fileID: 1586669416}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -2093,6 +2185,35 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1586669420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586669416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FileName: Walk_Right_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Run_Animation\Camera
+    Right
+  TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
+  RenderWidth: 1920
+  RenderHeight: 1080
+  StepRender: 1
+  StepTime: 0.01
+  _FileCounter: 0
+  EnableAlphaShadow: 0
+  TargetObjectParent: {fileID: 0}
+  TargetObjects: []
+  ReplacementMat: {fileID: 2100000, guid: b914abb29e72a304b8b173467c844b6e, type: 2}
+  FloorObject: {fileID: 1427150329622786, guid: f6a9315642664ab408b75389902a9ee6,
+    type: 3}
+  FloorHeight: 0
+  ShadowIntensity: 0.6
 --- !u!1 &1592927941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2111,7 +2232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1592927942
 Transform:
   m_ObjectHideFlags: 0
@@ -2382,6 +2503,7 @@ GameObject:
   - component: {fileID: 1716332178}
   - component: {fileID: 1716332180}
   - component: {fileID: 1716332179}
+  - component: {fileID: 1716332181}
   m_Layer: 0
   m_Name: Camera Front
   m_TagString: MainCamera
@@ -2422,7 +2544,7 @@ Camera:
   m_GameObject: {fileID: 1716332177}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -2456,6 +2578,35 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1716332181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716332177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FileName: Walk_Front_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Run_Animation\Camera
+    Front
+  TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
+  RenderWidth: 1920
+  RenderHeight: 1080
+  StepRender: 1
+  StepTime: 0.01
+  _FileCounter: 0
+  EnableAlphaShadow: 0
+  TargetObjectParent: {fileID: 0}
+  TargetObjects: []
+  ReplacementMat: {fileID: 2100000, guid: b914abb29e72a304b8b173467c844b6e, type: 2}
+  FloorObject: {fileID: 1427150329622786, guid: f6a9315642664ab408b75389902a9ee6,
+    type: 3}
+  FloorHeight: 0
+  ShadowIntensity: 0.6
 --- !u!1 &1728599617
 GameObject:
   m_ObjectHideFlags: 0
@@ -2474,7 +2625,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1728599618
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2652,6 +2803,7 @@ GameObject:
   - component: {fileID: 1766836955}
   - component: {fileID: 1766836954}
   - component: {fileID: 1766836953}
+  - component: {fileID: 1766836956}
   m_Layer: 0
   m_Name: Camera Back
   m_TagString: MainCamera
@@ -2676,7 +2828,7 @@ Camera:
   m_GameObject: {fileID: 1766836952}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -2726,6 +2878,35 @@ Transform:
   m_Father: {fileID: 1332657571}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1766836956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766836952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FileName: Walk_Back_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Run_Animation\Camera
+    Back
+  TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
+  RenderWidth: 1920
+  RenderHeight: 1080
+  StepRender: 1
+  StepTime: 0.01
+  _FileCounter: 0
+  EnableAlphaShadow: 0
+  TargetObjectParent: {fileID: 0}
+  TargetObjects: []
+  ReplacementMat: {fileID: 2100000, guid: b914abb29e72a304b8b173467c844b6e, type: 2}
+  FloorObject: {fileID: 1427150329622786, guid: f6a9315642664ab408b75389902a9ee6,
+    type: 3}
+  FloorHeight: 0
+  ShadowIntensity: 0.6
 --- !u!1 &1923189603
 GameObject:
   m_ObjectHideFlags: 0
@@ -2737,6 +2918,7 @@ GameObject:
   - component: {fileID: 1923189604}
   - component: {fileID: 1923189606}
   - component: {fileID: 1923189605}
+  - component: {fileID: 1923189607}
   m_Layer: 0
   m_Name: Camera Left
   m_TagString: MainCamera
@@ -2777,7 +2959,7 @@ Camera:
   m_GameObject: {fileID: 1923189603}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -2811,6 +2993,35 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1923189607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923189603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FileName: Walk_Left_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Run_Animation\Camera
+    Left
+  TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
+  RenderWidth: 1920
+  RenderHeight: 1080
+  StepRender: 1
+  StepTime: 0.01
+  _FileCounter: 0
+  EnableAlphaShadow: 0
+  TargetObjectParent: {fileID: 0}
+  TargetObjects: []
+  ReplacementMat: {fileID: 2100000, guid: b914abb29e72a304b8b173467c844b6e, type: 2}
+  FloorObject: {fileID: 1427150329622786, guid: f6a9315642664ab408b75389902a9ee6,
+    type: 3}
+  FloorHeight: 0
+  ShadowIntensity: 0.6
 --- !u!1 &1944314796
 GameObject:
   m_ObjectHideFlags: 0
