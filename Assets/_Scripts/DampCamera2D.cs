@@ -6,6 +6,7 @@ public class DampCamera2D : MonoBehaviour
 {
     public Transform target;
     public float smoothTime = 0.3F;
+    public float Distance = 0.3F;
     private Vector3 velocity = Vector3.zero;
     public CharacterMotor MyCharMotor;
 
@@ -13,7 +14,7 @@ public class DampCamera2D : MonoBehaviour
     {
         // Define a target position above and behind the target transform
         Vector3 targetPositionZoom = target.TransformPoint(new Vector3(0, 0, -15));
-        Vector3 targetPosition = target.TransformPoint(new Vector3(0, 0, -10));
+        Vector3 targetPosition = target.TransformPoint(new Vector3(0, 0, -Distance));
 
         // Smoothly move the camera towards that target position
         //if (!MyCharMotor.IsRunning)
