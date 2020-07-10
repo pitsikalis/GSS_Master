@@ -47,6 +47,54 @@ TextureImporter:
   - first:
       213: 5487723444389703996
     second: Cop_Locomotion_Walk_Ortho_Front_14
+  - first:
+      213: -7474616192642395910
+    second: Cop_Locomotion_Walk_Ortho_Front_0
+  - first:
+      213: -857749468491235067
+    second: Cop_Locomotion_Walk_Ortho_Front_1
+  - first:
+      213: -4248794626731181015
+    second: Cop_Locomotion_Walk_Ortho_Front_2
+  - first:
+      213: 7863792767480153972
+    second: Cop_Locomotion_Walk_Ortho_Front_3
+  - first:
+      213: -2371752186677990880
+    second: Cop_Locomotion_Walk_Ortho_Front_4
+  - first:
+      213: 6333516680131337640
+    second: Cop_Locomotion_Walk_Ortho_Front_5
+  - first:
+      213: -4792522010781835944
+    second: Cop_Locomotion_Walk_Ortho_Front_6
+  - first:
+      213: 5552797987774421632
+    second: Cop_Locomotion_Walk_Ortho_Front_7
+  - first:
+      213: -8336070422229423578
+    second: Cop_Locomotion_Walk_Ortho_Front_8
+  - first:
+      213: -4330415032228634792
+    second: Cop_Locomotion_Walk_Ortho_Front_9
+  - first:
+      213: 6819862526344289242
+    second: Cop_Locomotion_Walk_Ortho_Front_10
+  - first:
+      213: -8316589308342521962
+    second: Cop_Locomotion_Walk_Ortho_Front_11
+  - first:
+      213: 215471114550131772
+    second: Cop_Locomotion_Walk_Ortho_Front_12
+  - first:
+      213: -6868008610041103886
+    second: Cop_Locomotion_Walk_Ortho_Front_13
+  - first:
+      213: -1456552894572294887
+    second: Cop_Locomotion_Walk_Ortho_Front_14
+  - first:
+      213: 809436000355660660
+    second: Cop_Locomotion_Walk_Ortho_Front_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -135,10 +183,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_0
       rect:
         serializedVersion: 2
-        x: 180
-        y: 1978
-        width: 277
-        height: 662
+        x: 0
+        y: 1980
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73529f8bc06a08d70800000000000000
-      internalID: 9043410625333110071
+      spriteID: af0da2dcc24d44890800000000000000
+      internalID: -7474616192642395910
       vertices: []
       indices: 
       edges: []
@@ -156,10 +204,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_1
       rect:
         serializedVersion: 2
-        x: 848
-        y: 1978
-        width: 265
-        height: 662
+        x: 660
+        y: 1980
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a4f409cbfe6a3a50800000000000000
-      internalID: 6501631039751124129
+      spriteID: 501cc482769a814f0800000000000000
+      internalID: -857749468491235067
       vertices: []
       indices: 
       edges: []
@@ -177,10 +225,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_2
       rect:
         serializedVersion: 2
-        x: 1519
-        y: 1978
-        width: 250
-        height: 662
+        x: 1320
+        y: 1980
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a47168f1766aaab90800000000000000
-      internalID: -7229783289949186230
+      spriteID: 92c791e4ccf3905c0800000000000000
+      internalID: -4248794626731181015
       vertices: []
       indices: 
       edges: []
@@ -198,10 +246,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_3
       rect:
         serializedVersion: 2
-        x: 2187
-        y: 1981
-        width: 240
-        height: 630
+        x: 1980
+        y: 1980
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,8 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 774eb3ae24de47b20800000000000000
-      internalID: 3131388512582755447
+      spriteID: 477c0fc9bddc12d60800000000000000
+      internalID: 7863792767480153972
       vertices: []
       indices: 
       edges: []
@@ -219,10 +267,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_4
       rect:
         serializedVersion: 2
-        x: 207
-        y: 1321
-        width: 241
-        height: 638
+        x: 0
+        y: 1320
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,8 +278,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 878299bd5fcaea9a0800000000000000
-      internalID: -6219843863400863624
+      spriteID: 02a6dc9c3f7d51fd0800000000000000
+      internalID: -2371752186677990880
       vertices: []
       indices: 
       edges: []
@@ -240,10 +288,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_5
       rect:
         serializedVersion: 2
-        x: 858
-        y: 1318
-        width: 253
-        height: 651
+        x: 660
+        y: 1320
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,8 +299,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fb5d75806fe92640800000000000000
-      internalID: 5055835254535576562
+      spriteID: 8ad5d3a3ddb25e750800000000000000
+      internalID: 6333516680131337640
       vertices: []
       indices: 
       edges: []
@@ -261,10 +309,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_6
       rect:
         serializedVersion: 2
-        x: 1509
-        y: 1318
-        width: 268
-        height: 659
+        x: 1320
+        y: 1320
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,8 +320,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4f7953d268fd3350800000000000000
-      internalID: 5998223382063710030
+      spriteID: 85d9b118f9a8d7db0800000000000000
+      internalID: -4792522010781835944
       vertices: []
       indices: 
       edges: []
@@ -282,10 +330,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_7
       rect:
         serializedVersion: 2
-        x: 2166
-        y: 1318
-        width: 276
-        height: 656
+        x: 1980
+        y: 1320
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,8 +341,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b6a0c2df0b99fbb0800000000000000
-      internalID: -4901716227153418573
+      spriteID: 08a5cc299508f0d40800000000000000
+      internalID: 5552797987774421632
       vertices: []
       indices: 
       edges: []
@@ -303,10 +351,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_8
       rect:
         serializedVersion: 2
-        x: 186
-        y: 658
-        width: 277
-        height: 650
+        x: 0
+        y: 660
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,8 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94e645878b64d25e0800000000000000
-      internalID: -1932810906965348791
+      spriteID: 62aef5c0e14505c80800000000000000
+      internalID: -8336070422229423578
       vertices: []
       indices: 
       edges: []
@@ -324,10 +372,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_9
       rect:
         serializedVersion: 2
-        x: 845
-        y: 659
-        width: 272
-        height: 637
+        x: 660
+        y: 660
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,8 +383,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99bfc508ccddc1950800000000000000
-      internalID: 6421251039120128921
+      spriteID: 85f1002c87647e3c0800000000000000
+      internalID: -4330415032228634792
       vertices: []
       indices: 
       edges: []
@@ -345,10 +393,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_10
       rect:
         serializedVersion: 2
-        x: 1501
-        y: 659
-        width: 271
-        height: 632
+        x: 1320
+        y: 660
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,8 +404,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2bf460f2299f8510800000000000000
-      internalID: 1553628771807197998
+      spriteID: adbdfb3a5d405ae50800000000000000
+      internalID: 6819862526344289242
       vertices: []
       indices: 
       edges: []
@@ -366,10 +414,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_11
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 658
-        width: 281
-        height: 645
+        x: 1980
+        y: 660
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -377,8 +425,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cebf7bf7fad4de700800000000000000
-      internalID: 571198143903300588
+      spriteID: 69fae65561a859c80800000000000000
+      internalID: -8316589308342521962
       vertices: []
       indices: 
       edges: []
@@ -387,10 +435,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_12
       rect:
         serializedVersion: 2
-        x: 185
+        x: 0
         y: 0
-        width: 263
-        height: 653
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -398,8 +446,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fb093172db86bbd0800000000000000
-      internalID: -2614748797683037199
+      spriteID: c3c3e1a46d18df200800000000000000
+      internalID: 215471114550131772
       vertices: []
       indices: 
       edges: []
@@ -408,10 +456,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_13
       rect:
         serializedVersion: 2
-        x: 868
+        x: 660
         y: 0
-        width: 228
-        height: 655
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,8 +467,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce2ea5b8d5eccbd30800000000000000
-      internalID: 4448657433100477164
+      spriteID: 2f9fc24be8eefa0a0800000000000000
+      internalID: -6868008610041103886
       vertices: []
       indices: 
       edges: []
@@ -429,10 +477,10 @@ TextureImporter:
       name: Cop_Locomotion_Walk_Ortho_Front_14
       rect:
         serializedVersion: 2
-        x: 1527
+        x: 1320
         y: 0
-        width: 222
-        height: 655
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,8 +488,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c317e60c56f482c40800000000000000
-      internalID: 5487723444389703996
+      spriteID: 91d837a0cd849cbe0800000000000000
+      internalID: -1456552894572294887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Front_15
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 0
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473bc95f0c1bb3b00800000000000000
+      internalID: 809436000355660660
       vertices: []
       indices: 
       edges: []

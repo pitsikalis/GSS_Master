@@ -14,6 +14,54 @@ TextureImporter:
   - first:
       213: -319000620570187460
     second: Cop_Locomotion_Idle_Ortho_Right_3
+  - first:
+      213: 7806352432914111161
+    second: Cop_Locomotion_Idle_Ortho_Right_0
+  - first:
+      213: 2166283280239786969
+    second: Cop_Locomotion_Idle_Ortho_Right_1
+  - first:
+      213: -1393735242365148115
+    second: Cop_Locomotion_Idle_Ortho_Right_2
+  - first:
+      213: 1999704949885961636
+    second: Cop_Locomotion_Idle_Ortho_Right_3
+  - first:
+      213: 539226714793003108
+    second: Cop_Locomotion_Idle_Ortho_Right_4
+  - first:
+      213: 339111572626825418
+    second: Cop_Locomotion_Idle_Ortho_Right_5
+  - first:
+      213: -2528326852677191676
+    second: Cop_Locomotion_Idle_Ortho_Right_6
+  - first:
+      213: -275857033457135139
+    second: Cop_Locomotion_Idle_Ortho_Right_7
+  - first:
+      213: 2782348978894003184
+    second: Cop_Locomotion_Idle_Ortho_Right_8
+  - first:
+      213: 5324796162887017537
+    second: Cop_Locomotion_Idle_Ortho_Right_9
+  - first:
+      213: 3834891597487694386
+    second: Cop_Locomotion_Idle_Ortho_Right_10
+  - first:
+      213: 7280504033789890814
+    second: Cop_Locomotion_Idle_Ortho_Right_11
+  - first:
+      213: 7576847726959214831
+    second: Cop_Locomotion_Idle_Ortho_Right_12
+  - first:
+      213: 3270124092754688946
+    second: Cop_Locomotion_Idle_Ortho_Right_13
+  - first:
+      213: 1342308502282039842
+    second: Cop_Locomotion_Idle_Ortho_Right_14
+  - first:
+      213: 3333468643805556868
+    second: Cop_Locomotion_Idle_Ortho_Right_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -102,10 +150,10 @@ TextureImporter:
       name: Cop_Locomotion_Idle_Ortho_Right_0
       rect:
         serializedVersion: 2
-        x: 275
-        y: 0
-        width: 727
-        height: 2640
+        x: 0
+        y: 1980
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc2b2739388d83240800000000000000
-      internalID: 4771801864825123532
+      spriteID: 9ba1a5b8d2cb55c60800000000000000
+      internalID: 7806352432914111161
       vertices: []
       indices: 
       edges: []
@@ -123,10 +171,10 @@ TextureImporter:
       name: Cop_Locomotion_Idle_Ortho_Right_1
       rect:
         serializedVersion: 2
-        x: 935
-        y: 658
-        width: 148
-        height: 1982
+        x: 660
+        y: 1980
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7a42ff10ba2b7040800000000000000
-      internalID: 4646354376501381754
+      spriteID: 9db7f897a2f201e10800000000000000
+      internalID: 2166283280239786969
       vertices: []
       indices: 
       edges: []
@@ -144,10 +192,10 @@ TextureImporter:
       name: Cop_Locomotion_Idle_Ortho_Right_2
       rect:
         serializedVersion: 2
-        x: 1595
-        y: 659
-        width: 148
-        height: 1981
+        x: 1320
+        y: 1980
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 640e50dbde04f8770800000000000000
-      internalID: 8615176002005753926
+      spriteID: d24e1ef6e2578ace0800000000000000
+      internalID: -1393735242365148115
       vertices: []
       indices: 
       edges: []
@@ -165,10 +213,10 @@ TextureImporter:
       name: Cop_Locomotion_Idle_Ortho_Right_3
       rect:
         serializedVersion: 2
-        x: 1647
-        y: 0
-        width: 756
-        height: 2640
+        x: 1980
+        y: 1980
+        width: 660
+        height: 660
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +224,260 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c39e8cf20aea29bf0800000000000000
-      internalID: -319000620570187460
+      spriteID: 4a50b899e0160cb10800000000000000
+      internalID: 1999704949885961636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Ortho_Right_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46843a417d7bb7700800000000000000
+      internalID: 539226714793003108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Ortho_Right_5
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1320
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac065a9bd24c4b400800000000000000
+      internalID: 339111572626825418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Ortho_Right_6
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1320
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40838168f1499ecd0800000000000000
+      internalID: -2528326852677191676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Ortho_Right_7
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1320
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd19ef75d75fb2cf0800000000000000
+      internalID: -275857033457135139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Ortho_Right_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbd520a7a3ec9620800000000000000
+      internalID: 2782348978894003184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Ortho_Right_9
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 660
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1446e3ee5e975e940800000000000000
+      internalID: 5324796162887017537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Ortho_Right_10
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 660
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232626cf695483530800000000000000
+      internalID: 3834891597487694386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Ortho_Right_11
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 660
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef058df48db890560800000000000000
+      internalID: 7280504033789890814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Ortho_Right_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe041a22dde562960800000000000000
+      internalID: 7576847726959214831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Ortho_Right_13
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbf6185980d16d20800000000000000
+      internalID: 3270124092754688946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Ortho_Right_14
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222f1819876d0a210800000000000000
+      internalID: 1342308502282039842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Ortho_Right_15
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 0
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480feefe11cd24e20800000000000000
+      internalID: 3333468643805556868
       vertices: []
       indices: 
       edges: []
