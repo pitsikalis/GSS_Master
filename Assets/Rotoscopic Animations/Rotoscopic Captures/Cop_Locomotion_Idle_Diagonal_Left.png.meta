@@ -1,7 +1,46 @@
 fileFormatVersion: 2
 guid: 76c4294b1f092614a91ae7cbc343b356
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5946184203899766249
+    second: Cop_Locomotion_Idle_Diagonal_Left_0
+  - first:
+      213: -710568226325647520
+    second: Cop_Locomotion_Idle_Diagonal_Left_1
+  - first:
+      213: -217938738694093279
+    second: Cop_Locomotion_Idle_Diagonal_Left_2
+  - first:
+      213: -1722570957842170930
+    second: Cop_Locomotion_Idle_Diagonal_Left_3
+  - first:
+      213: -5831461897419618194
+    second: Cop_Locomotion_Idle_Diagonal_Left_4
+  - first:
+      213: -5588845148333787115
+    second: Cop_Locomotion_Idle_Diagonal_Left_5
+  - first:
+      213: 8329412592941785687
+    second: Cop_Locomotion_Idle_Diagonal_Left_6
+  - first:
+      213: 7893614753075834545
+    second: Cop_Locomotion_Idle_Diagonal_Left_7
+  - first:
+      213: 3998543236172076721
+    second: Cop_Locomotion_Idle_Diagonal_Left_8
+  - first:
+      213: 7674735536538346115
+    second: Cop_Locomotion_Idle_Diagonal_Left_9
+  - first:
+      213: -5559168907241011500
+    second: Cop_Locomotion_Idle_Diagonal_Left_10
+  - first:
+      213: -1231378700328426838
+    second: Cop_Locomotion_Idle_Diagonal_Left_11
+  - first:
+      213: -5110976398020185784
+    second: Cop_Locomotion_Idle_Diagonal_Left_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -85,11 +124,284 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Diagonal_Left_0
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1318
+        width: 229
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e50c7a7707158250800000000000000
+      internalID: 5946184203899766249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Diagonal_Left_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1978
+        width: 229
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f2e2186fd8326f0800000000000000
+      internalID: -710568226325647520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Diagonal_Left_2
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1318
+        width: 228
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12687513fd9b9fcf0800000000000000
+      internalID: -217938738694093279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Diagonal_Left_3
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1978
+        width: 228
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbb96527d23818e0800000000000000
+      internalID: -1722570957842170930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Diagonal_Left_4
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 1318
+        width: 228
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68041bfc4c721fa0800000000000000
+      internalID: -5831461897419618194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Diagonal_Left_5
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 1978
+        width: 228
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51836e4d2fe6072b0800000000000000
+      internalID: -5588845148333787115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Diagonal_Left_6
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 1318
+        width: 228
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752e5f54f94089370800000000000000
+      internalID: 8329412592941785687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Diagonal_Left_7
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 1978
+        width: 228
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be2ed6bbc0cb8d60800000000000000
+      internalID: 7893614753075834545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Diagonal_Left_8
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 810
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6d31b53edad7730800000000000000
+      internalID: 3998543236172076721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Diagonal_Left_9
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 659
+        width: 228
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3826f68de43228a60800000000000000
+      internalID: 7674735536538346115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Diagonal_Left_10
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 658
+        width: 228
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6c085255dd9d2b0800000000000000
+      internalID: -5559168907241011500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Diagonal_Left_11
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 659
+        width: 228
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa221fe989349eee0800000000000000
+      internalID: -1231378700328426838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Idle_Diagonal_Left_12
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 0
+        width: 754
+        height: 1321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841f99c8b0a2219b0800000000000000
+      internalID: -5110976398020185784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 87ecf4355b7c23d4088ad3d8d190f517
     internalID: 0
     vertices: []
     indices: 

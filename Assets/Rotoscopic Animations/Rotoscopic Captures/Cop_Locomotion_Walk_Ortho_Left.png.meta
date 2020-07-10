@@ -1,7 +1,52 @@
 fileFormatVersion: 2
 guid: 3d9ca1c05cff86e42b4218d86c51e9af
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3609229232770315575
+    second: Cop_Locomotion_Walk_Ortho_Left_0
+  - first:
+      213: 6859926641607545249
+    second: Cop_Locomotion_Walk_Ortho_Left_1
+  - first:
+      213: 1314660285306784236
+    second: Cop_Locomotion_Walk_Ortho_Left_2
+  - first:
+      213: 5020888179274759606
+    second: Cop_Locomotion_Walk_Ortho_Left_3
+  - first:
+      213: -4122508582477438215
+    second: Cop_Locomotion_Walk_Ortho_Left_4
+  - first:
+      213: 324954272901499787
+    second: Cop_Locomotion_Walk_Ortho_Left_5
+  - first:
+      213: -3372252210149267981
+    second: Cop_Locomotion_Walk_Ortho_Left_6
+  - first:
+      213: 4027661194210573004
+    second: Cop_Locomotion_Walk_Ortho_Left_7
+  - first:
+      213: -6449431088511238608
+    second: Cop_Locomotion_Walk_Ortho_Left_8
+  - first:
+      213: 1043419239107764819
+    second: Cop_Locomotion_Walk_Ortho_Left_9
+  - first:
+      213: -4392394229456609237
+    second: Cop_Locomotion_Walk_Ortho_Left_10
+  - first:
+      213: -5685928879049440962
+    second: Cop_Locomotion_Walk_Ortho_Left_11
+  - first:
+      213: -6612767691051840918
+    second: Cop_Locomotion_Walk_Ortho_Left_12
+  - first:
+      213: 2591939587040545822
+    second: Cop_Locomotion_Walk_Ortho_Left_13
+  - first:
+      213: 1825354018883780501
+    second: Cop_Locomotion_Walk_Ortho_Left_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -85,11 +130,326 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_0
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1978
+        width: 183
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735fa3c5dde861230800000000000000
+      internalID: 3609229232770315575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_1
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1978
+        width: 256
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a191426fea533f50800000000000000
+      internalID: 6859926641607545249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_2
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1978
+        width: 358
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9460a609c9e3210800000000000000
+      internalID: 1314660285306784236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_3
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 1981
+        width: 432
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd31ae7237cda540800000000000000
+      internalID: 5020888179274759606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1321
+        width: 418
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2eee54948e9c6c0800000000000000
+      internalID: -4122508582477438215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_5
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1318
+        width: 336
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b0a848038728400800000000000000
+      internalID: 324954272901499787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_6
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1318
+        width: 186
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5e6095b7a5331d0800000000000000
+      internalID: -3372252210149267981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_7
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 1318
+        width: 167
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccafb84448025e730800000000000000
+      internalID: 4027661194210573004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_8
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 658
+        width: 243
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e3de578940f76a0800000000000000
+      internalID: -6449431088511238608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_9
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 659
+        width: 352
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352a3da0548fa7e00800000000000000
+      internalID: 1043419239107764819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_10
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 659
+        width: 422
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2063cf58b41b03c0800000000000000
+      internalID: -4392394229456609237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_11
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 658
+        width: 409
+        height: 645
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e318f125fc58711b0800000000000000
+      internalID: -5685928879049440962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_12
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 307
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6acca822daba34a0800000000000000
+      internalID: -6612767691051840918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_13
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 0
+        width: 175
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c03dc525b68f320800000000000000
+      internalID: 2591939587040545822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Locomotion_Walk_Ortho_Left_14
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 0
+        width: 150
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f36ec1fc5f45910800000000000000
+      internalID: 1825354018883780501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 15c07e8b6c39b3547ac13f6a08c7ac43
     internalID: 0
     vertices: []
     indices: 

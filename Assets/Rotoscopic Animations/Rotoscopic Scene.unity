@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: Walk_Back_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Run_Animation\Camera
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Walk_Animation\Camera
     Back
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
@@ -286,7 +286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &107971928
 Transform:
   m_ObjectHideFlags: 0
@@ -367,7 +367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: Walk_Right_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Run_Animation\Camera
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Walk_Animation\Camera
     Right
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
@@ -482,7 +482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: Walk_Front_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Run_Animation\Camera
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Walk_Animation\Camera
     Front
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
@@ -1489,7 +1489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa968a954f9e73144a8cf2070db1ed83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RenderCameraTarget: {fileID: 1586669420}
+  RenderCameraTarget: {fileID: 107971931}
 --- !u!1 &1119630057
 GameObject:
   m_ObjectHideFlags: 0
@@ -1773,7 +1773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: Walk_Left_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Run_Animation\Camera
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Walk_Animation\Camera
     Left
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
@@ -2117,7 +2117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1586669417
 Transform:
   m_ObjectHideFlags: 0
@@ -2198,7 +2198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: Walk_Right_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Idle_Animation\Camera
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Walk_Animation\Camera
     Right
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
@@ -2591,7 +2591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: Walk_Front_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Run_Animation\Camera
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Walk_Animation\Camera
     Front
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
@@ -2891,7 +2891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: Walk_Back_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Run_Animation\Camera
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Walk_Animation\Camera
     Back
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
@@ -3006,7 +3006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: Walk_Left_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Run_Animation\Camera
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Walk_Animation\Camera
     Left
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
