@@ -609,8 +609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d832d777bfc529478d66eec2b2e2dc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 5
-  RunSpeed: 8
+  MoveSpeed: 2
+  RunSpeed: 5
   MyRigidbody: {fileID: 1677880372}
   Movement: {x: 0, y: 0}
   IsRunning: 0
@@ -659,7 +659,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -7620944850040174038, guid: d36fa06f5f50dfa4eb4e1310750863ce,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.48235294, g: 0.85882354, b: 0.6156863, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
