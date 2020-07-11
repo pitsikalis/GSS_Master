@@ -5,8 +5,9 @@ using UnityEngine;
 public class EnemyAi : MonoBehaviour
 {
     private GameObject player;
+    private Transform target;
     public float MoveSpeed;
-
+    private Vector2 direction;
 
 
     public float CurrentDirection;
@@ -21,6 +22,8 @@ public class EnemyAi : MonoBehaviour
 
         player = GameObject.FindGameObjectWithTag("Player");
 
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+
         CurrentDirection = LastDirection = PastDirection = 1;
     }
 
@@ -29,22 +32,31 @@ public class EnemyAi : MonoBehaviour
     {
         //Simple Follow the Player//
 
-        transform.position += (player.transform.position - transform.position).normalized * MoveSpeed * Time.deltaTime;
+        FollowTarget();
 
-        if (transform.position.x >= 0.01f)
+        MyAnimator.SetFloat("Horizontal", direction.x);
+        MyAnimator.SetFloat("Vertical", direction.y);
+        MyAnimator.SetFloat("Speed", direction.sqrMagnitude);
+
+
+        ////
+        ///
+
+
+        if (direction.x >= 0.01f)
         {
             CurrentDirection = 2;
         }
-        else if (transform.position.x <= -0.01f)
+        else if (direction.x <= -0.01f)
         {
             CurrentDirection = 4;
         }
 
-        if (transform.position.y >= 0.01f)
+        if (direction.y >= 0.01f)
         {
             CurrentDirection = 1;
         }
-        else if (transform.position.y <= -0.01f)
+        else if (direction.y <= -0.01f)
         {
             CurrentDirection = 3;
         }
@@ -79,5 +91,14 @@ public class EnemyAi : MonoBehaviour
         }
 
 
+    }
+
+    private void FollowTarget()
+    {
+        if (target != null)
+        {
+            direction = (target.transform.position - transform.position).normalized;
+            transform.position = Vector2.MoveTowards(transform.position, target.position, MoveSpeed * Time.deltaTime);
+        }
     }
 }
