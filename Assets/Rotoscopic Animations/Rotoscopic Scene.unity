@@ -145,7 +145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73579772}
   m_LocalRotation: {x: -0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 36.9, y: 1.6, z: 111.4}
+  m_LocalPosition: {x: 36, y: 0.3, z: 64.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1332657571}
@@ -180,7 +180,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 85999565}
   m_LocalRotation: {x: 2.3544564e-10, y: 0.92294276, z: 9.760829e-11, w: -0.38493732}
-  m_LocalPosition: {x: 45.2, y: 0.00000011920929, z: 108.7}
+  m_LocalPosition: {x: 45.2, y: 0.00000011920929, z: 47.048294}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1013510796}
@@ -251,8 +251,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FileName: Walk_Back_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Walk_Animation\Camera
+  FileName: Dodge_Back_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Attack_Animation\Camera
     Back
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
@@ -295,7 +295,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107971927}
   m_LocalRotation: {x: -9.746574e-11, y: -0.38042748, z: -2.3550456e-10, w: 0.9248108}
-  m_LocalPosition: {x: 44.776764, y: 0.00000011920929, z: 22.009727}
+  m_LocalPosition: {x: 44.776764, y: 0.00000011920929, z: -39.641975}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1623918669}
@@ -366,8 +366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FileName: Walk_Right_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Walk_Animation\Camera
+  FileName: Dodge_Right_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Attack_Animation\Camera
     Right
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
@@ -461,7 +461,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309800608}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 401881997}
@@ -481,8 +481,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FileName: Walk_Front_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Walk_Animation\Camera
+  FileName: Dodge_Front_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Attack_Animation\Camera
     Front
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
@@ -570,6 +570,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 5b0f01a936db6f24396ed7d662913028, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 7c81678b850c2c54b94723e4ab90092d,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c81678b850c2c54b94723e4ab90092d, type: 3}
 --- !u!1 &358362649
@@ -964,7 +969,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 908626322}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 10.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1716332178}
@@ -1701,7 +1706,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325953231}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -61.299995, y: 0, z: 64.4}
+  m_LocalPosition: {x: -61.299995, y: 0, z: 17.400002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 358362650}
@@ -1772,8 +1777,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FileName: Walk_Left_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Walk_Animation\Camera
+  FileName: Dodge_Left_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Attack_Animation\Camera
     Left
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
@@ -2126,7 +2131,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586669416}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 61.3, y: 0, z: 64.4}
+  m_LocalPosition: {x: 61.3, y: 0, z: 17.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1328364687}
@@ -2197,8 +2202,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FileName: Walk_Right_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Walk_Animation\Camera
+  FileName: Dodge_Right_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Attack_Animation\Camera
     Right
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
@@ -2519,7 +2524,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716332177}
   m_LocalRotation: {x: 9.760826e-11, y: 0.38493732, z: -2.354457e-10, w: 0.92294276}
-  m_LocalPosition: {x: -44.11619, y: -0.00000011920929, z: 20.251701}
+  m_LocalPosition: {x: -44.11619, y: -0.00000011920929, z: -41.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 664375029}
@@ -2590,8 +2595,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FileName: Walk_Front_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Walk_Animation\Camera
+  FileName: Dodge_Front_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Attack_Animation\Camera
     Front
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
@@ -2870,7 +2875,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766836952}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 125.700005}
+  m_LocalPosition: {x: 0, y: 0, z: 78.700005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1119630059}
@@ -2890,8 +2895,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FileName: Walk_Back_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Walk_Animation\Camera
+  FileName: Dodge_Back_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Attack_Animation\Camera
     Back
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
@@ -2934,7 +2939,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923189603}
   m_LocalRotation: {x: 2.3550456e-10, y: 0.9248108, z: -9.746573e-11, w: 0.38042748}
-  m_LocalPosition: {x: -41.49023, y: -0.00000011920929, z: 109.12323}
+  m_LocalPosition: {x: -41.49023, y: -0.00000011920929, z: 47.471527}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1168929079}
@@ -3005,8 +3010,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FileName: Walk_Left_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Walk_Animation\Camera
+  FileName: Dodge_Left_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Attack_Animation\Camera
     Left
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
