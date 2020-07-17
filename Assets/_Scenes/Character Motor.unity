@@ -1145,10 +1145,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9367619f383f154c8a9414ae181fec6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 0.53
+  MoveSpeed: 1
   CurrentDirection: 0
   LastDirection: 0
   PastDirection: 0
+  MinimumDistance: 2
 --- !u!212 &1752579548
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1224,7 +1225,7 @@ Animator:
   m_GameObject: {fileID: 1752579545}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ae3e3ad66373f9f44ba852deae2fe158, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8c903845026a6074a9fe458f88abe294, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemyAi : MonoBehaviour
 {
@@ -14,6 +12,8 @@ public class EnemyAi : MonoBehaviour
     public float LastDirection;
     public float PastDirection;
     private Animator MyAnimator;
+
+    public float MinimumDistance = 2f;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +32,21 @@ public class EnemyAi : MonoBehaviour
     {
         //Simple Follow the Player//
 
-        FollowTarget();
+        float PlayerDistance = Vector3.Distance(transform.position, target.transform.position);
+        Debug.Log(PlayerDistance);
+
+        if (PlayerDistance > MinimumDistance)
+        {
+            FollowTarget();
+            MyAnimator.SetBool("Attack", false);
+        }
+        else 
+        {
+            Attack();
+
+           
+        }
+       
 
         MyAnimator.SetFloat("Horizontal", direction.x);
         MyAnimator.SetFloat("Vertical", direction.y);
@@ -100,5 +114,17 @@ public class EnemyAi : MonoBehaviour
             direction = (target.transform.position - transform.position).normalized;
             transform.position = Vector2.MoveTowards(transform.position, target.position, MoveSpeed * Time.deltaTime);
         }
+    }
+
+
+    private void Attack()
+    {
+
+        if (target != null)
+        {
+            MyAnimator.SetBool("Attack", true);
+            Debug.Log("I ATTACK!");
+        }
+           
     }
 }
