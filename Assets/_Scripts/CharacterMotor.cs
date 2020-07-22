@@ -8,9 +8,9 @@ public class CharacterMotor : MonoBehaviour
 
     public float RunSpeed = 8f;
 
-    public Rigidbody2D MyRigidbody;
+    public Rigidbody MyRigidbody;
 
-    public Vector2  Movement;
+    public Vector3  Movement;
 
     public bool IsRunning = false;
 
@@ -35,7 +35,7 @@ public class CharacterMotor : MonoBehaviour
     void Update()
     {
         Movement.x = Input.GetAxisRaw("Horizontal");
-        Movement.y = Input.GetAxisRaw("Vertical");
+        Movement.z = Input.GetAxisRaw("Vertical");
 
         MyAnimator.SetFloat("Horizontal", Movement.x);
         MyAnimator.SetFloat("Vertical", Movement.y);
@@ -53,11 +53,11 @@ public class CharacterMotor : MonoBehaviour
             CurrentDirection = 4;
         }
 
-        if (Movement.y >= 0.01f)
+        if (Movement.z >= 0.01f)
         {
             CurrentDirection = 1;
         }
-        else if (Movement.y <= -0.01f)
+        else if (Movement.z <= -0.01f)
         {
             CurrentDirection = 3;
         }

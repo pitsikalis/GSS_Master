@@ -5,7 +5,7 @@ public class EnemyAi : MonoBehaviour
     private GameObject player;
     private Transform target;
     public float MoveSpeed;
-    private Vector2 direction;
+    private Vector3 direction;
 
 
     public float CurrentDirection;
@@ -49,7 +49,7 @@ public class EnemyAi : MonoBehaviour
        
 
         MyAnimator.SetFloat("Horizontal", direction.x);
-        MyAnimator.SetFloat("Vertical", direction.y);
+        MyAnimator.SetFloat("Vertical", direction.z);
         MyAnimator.SetFloat("Speed", direction.sqrMagnitude);
 
 
@@ -66,11 +66,11 @@ public class EnemyAi : MonoBehaviour
             CurrentDirection = 4;
         }
 
-        if (direction.y >= 0.01f)
+        if (direction.z >= 0.01f)
         {
             CurrentDirection = 1;
         }
-        else if (direction.y <= -0.01f)
+        else if (direction.z <= -0.01f)
         {
             CurrentDirection = 3;
         }
