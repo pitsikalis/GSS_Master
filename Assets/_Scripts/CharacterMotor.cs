@@ -38,7 +38,7 @@ public class CharacterMotor : MonoBehaviour
         Movement.z = Input.GetAxisRaw("Vertical");
 
         MyAnimator.SetFloat("Horizontal", Movement.x);
-        MyAnimator.SetFloat("Vertical", Movement.y);
+        MyAnimator.SetFloat("Vertical", Movement.z);
         MyAnimator.SetFloat("Speed", Movement.sqrMagnitude);
 
 
