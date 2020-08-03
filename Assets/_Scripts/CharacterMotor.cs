@@ -13,6 +13,8 @@ public class CharacterMotor : MonoBehaviour
     public Vector3  Movement;
 
     public bool IsRunning = false;
+    public bool IsAttacking = false;
+    public bool IsDodging = false;
 
     public Animator MyAnimator;
 
@@ -108,10 +110,23 @@ public class CharacterMotor : MonoBehaviour
             MyRigidbody.MovePosition(MyRigidbody.position + Movement * MoveSpeed * Time.deltaTime);
         }
 
+        //Attack
+        if (Input.GetKey(KeyCode.E))
+        {
+            IsAttacking = true;
+            MyAnimator.SetBool("Attack", true);
+        }
+
+        //Dodge
+        if (Input.GetKey(KeyCode.Space))
+        {
+            IsDodging = true;
+            MyAnimator.SetBool("Dodge", true);
+        }
 
 
 
 
-        
+
     }
 }
