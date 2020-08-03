@@ -1,0 +1,368 @@
+fileFormatVersion: 2
+guid: 6a0d8653dee765d41a4d8dc8ec3e3b44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7476319149448480703
+    second: Cop_Dodge_Diagonal_Front_0
+  - first:
+      213: -2364159805247418245
+    second: Cop_Dodge_Diagonal_Front_1
+  - first:
+      213: 1148863616752984041
+    second: Cop_Dodge_Diagonal_Front_2
+  - first:
+      213: -7267456419551146835
+    second: Cop_Dodge_Diagonal_Front_3
+  - first:
+      213: 7581218884755478296
+    second: Cop_Dodge_Diagonal_Front_4
+  - first:
+      213: -4651238802478553133
+    second: Cop_Dodge_Diagonal_Front_5
+  - first:
+      213: 1891105410174015442
+    second: Cop_Dodge_Diagonal_Front_6
+  - first:
+      213: -9063017327080727983
+    second: Cop_Dodge_Diagonal_Front_7
+  - first:
+      213: -8809214291603331468
+    second: Cop_Dodge_Diagonal_Front_8
+  - first:
+      213: -7883684467989551513
+    second: Cop_Dodge_Diagonal_Front_9
+  - first:
+      213: -5050333304686860233
+    second: Cop_Dodge_Diagonal_Front_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cop_Dodge_Diagonal_Front_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1988
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1483ca54857ce3890800000000000000
+      internalID: -7476319149448480703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Diagonal_Front_1
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1988
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7098f7de21d03fd0800000000000000
+      internalID: -2364159805247418245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Diagonal_Front_2
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1988
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef9eeb5f5591ff00800000000000000
+      internalID: 1148863616752984041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Diagonal_Front_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1328
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac850c14eec42b90800000000000000
+      internalID: -7267456419551146835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Diagonal_Front_4
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1328
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817555e9866e53960800000000000000
+      internalID: 7581218884755478296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Diagonal_Front_5
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1328
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7a0c4d3fa737fb0800000000000000
+      internalID: -4651238802478553133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Diagonal_Front_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 668
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7dd3ed95e8e3a10800000000000000
+      internalID: 1891105410174015442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Diagonal_Front_7
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 668
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a942a42c1b93280800000000000000
+      internalID: -9063017327080727983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Diagonal_Front_8
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 668
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47660b666426fb580800000000000000
+      internalID: -8809214291603331468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Diagonal_Front_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766e734feb6879290800000000000000
+      internalID: -7883684467989551513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Diagonal_Front_10
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 8
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738a0d00e9c99e9b0800000000000000
+      internalID: -5050333304686860233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0c5e21b1de6a97d4da3c4115b35bcefd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

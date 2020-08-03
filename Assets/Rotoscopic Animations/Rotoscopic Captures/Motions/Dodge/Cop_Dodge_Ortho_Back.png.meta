@@ -1,0 +1,368 @@
+fileFormatVersion: 2
+guid: cda607431ed4c414c82c1296535ccd68
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6166830599374983945
+    second: Cop_Dodge_Ortho_Back_0
+  - first:
+      213: 1866506633794674699
+    second: Cop_Dodge_Ortho_Back_1
+  - first:
+      213: 6326354914890719753
+    second: Cop_Dodge_Ortho_Back_2
+  - first:
+      213: -2213743556545805661
+    second: Cop_Dodge_Ortho_Back_3
+  - first:
+      213: -8794823351892704226
+    second: Cop_Dodge_Ortho_Back_4
+  - first:
+      213: 3731804216783208648
+    second: Cop_Dodge_Ortho_Back_5
+  - first:
+      213: -5810585865517683735
+    second: Cop_Dodge_Ortho_Back_6
+  - first:
+      213: 8228331308678916710
+    second: Cop_Dodge_Ortho_Back_7
+  - first:
+      213: -7757503720357850721
+    second: Cop_Dodge_Ortho_Back_8
+  - first:
+      213: 6972787945262809873
+    second: Cop_Dodge_Ortho_Back_9
+  - first:
+      213: 1649488067367771447
+    second: Cop_Dodge_Ortho_Back_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cop_Dodge_Ortho_Back_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1980
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcae3e3e340b6aa0800000000000000
+      internalID: -6166830599374983945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Ortho_Back_1
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1980
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00ed3ee4e927e910800000000000000
+      internalID: 1866506633794674699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Ortho_Back_2
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1980
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902ab11d64abbc750800000000000000
+      internalID: 6326354914890719753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Ortho_Back_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a20748d6f33741e0800000000000000
+      internalID: -2213743556545805661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Ortho_Back_4
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1320
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14002822c282f580800000000000000
+      internalID: -8794823351892704226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Ortho_Back_5
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1320
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c00ba8c9280ac330800000000000000
+      internalID: 3731804216783208648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Ortho_Back_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eba9ece0f6ac5fa0800000000000000
+      internalID: -5810585865517683735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Ortho_Back_7
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 660
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a280ccab7e03270800000000000000
+      internalID: 8228331308678916710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Ortho_Back_8
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 660
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f919c44a77fc75490800000000000000
+      internalID: -7757503720357850721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Ortho_Back_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113048b51b154c060800000000000000
+      internalID: 6972787945262809873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_Dodge_Ortho_Back_10
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 660
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d93bc68a824e610800000000000000
+      internalID: 1649488067367771447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e274498873662c244814711ca1957b03
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
