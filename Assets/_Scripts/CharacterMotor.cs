@@ -111,19 +111,31 @@ public class CharacterMotor : MonoBehaviour
         }
 
         //Attack
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             IsAttacking = true;
             MyAnimator.SetBool("Attack", true);
         }
 
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+            IsAttacking = false;
+            MyAnimator.SetBool("Attack", false);
+        }
+
         //Dodge
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             IsDodging = true;
             MyAnimator.SetBool("Dodge", true);
         }
 
+       
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            IsDodging = false;
+            MyAnimator.SetBool("Dodge", false);
+        }
 
 
 
