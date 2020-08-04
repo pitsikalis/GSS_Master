@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Events;
 using UnityEngine;
 
 public class CharacterMotor : MonoBehaviour
 {
+   
+
     public float MoveSpeed = 5f;
 
     public float RunSpeed = 8f;
@@ -24,6 +27,11 @@ public class CharacterMotor : MonoBehaviour
     public float CurrentDirection;
     public float LastDirection;
     public float PastDirection;
+
+
+    public UnityEvent OnAttackEnter;
+    public UnityEvent OnAttackExit;
+
 
     // Start is called before the first frame update
     void Start()
@@ -119,12 +127,15 @@ public class CharacterMotor : MonoBehaviour
         {
             IsAttacking = true;
             MyAnimator.SetBool("Attack", true);
+
+            OnAttackEnter.Invoke();
         }
 
         if (Input.GetKeyUp(KeyCode.E))
         {
             IsAttacking = false;
             MyAnimator.SetBool("Attack", false);
+            OnAttackExit.Invoke();
         }
 
         //Dodge
