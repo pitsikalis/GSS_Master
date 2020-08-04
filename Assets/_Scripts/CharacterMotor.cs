@@ -99,16 +99,20 @@ public class CharacterMotor : MonoBehaviour
     void FixedUpdate()
     {
         //Movement
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (!IsAttacking )
         {
-            IsRunning = true;
-            MyRigidbody.MovePosition(MyRigidbody.position + Movement * RunSpeed * Time.deltaTime);
+            //if (Input.GetKey(KeyCode.LeftShift))
+            //{
+            //    IsRunning = true;
+            //    MyRigidbody.MovePosition(MyRigidbody.position + Movement * RunSpeed * Time.deltaTime);
+            //}
+           if(!IsDodging)
+            {
+                IsRunning = false;
+                MyRigidbody.MovePosition(MyRigidbody.position + Movement * MoveSpeed * Time.deltaTime);
+            }
         }
-        else 
-        {
-            IsRunning = false;
-            MyRigidbody.MovePosition(MyRigidbody.position + Movement * MoveSpeed * Time.deltaTime);
-        }
+      
 
         //Attack
         if (Input.GetKeyDown(KeyCode.E))
