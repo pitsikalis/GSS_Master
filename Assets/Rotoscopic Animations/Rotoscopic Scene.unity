@@ -252,8 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: RunningJump_Back_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\RunningJump_Animation\Camera
-    Back
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Run_Animation\Camera_Back
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
   RenderHeight: 1080
@@ -367,8 +366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: RunningJump_Right_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\RunningJump_Animation\Camera
-    Right
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Run_Animation\Camera_Right
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
   RenderHeight: 1080
@@ -481,9 +479,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efa56c116777d834a910d278b4f9e213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FileName: Jump_Front_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\RunningJump_Animation\Camera
-    Front
+  FileName: Run_Front_
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Run_Animation\Camera_Front
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
   RenderHeight: 1080
@@ -579,6 +576,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 7c81678b850c2c54b94723e4ab90092d,
+        type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
+        'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
+        'mixamorig:LeftHandPinky2'\n\tTransform 'mixamorig:RightHandRing2'\n\tTransform
+        'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
+        'mixamorig:RightArm'\n\tand more ...\n\tFrom animation clip 'Running'"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c81678b850c2c54b94723e4ab90092d, type: 3}
@@ -1783,8 +1791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: Dodge_Left_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\RunningJump_Animation\Camera
-    Left
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Run_Animation\Camera_Left
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
   RenderHeight: 1080
@@ -2208,8 +2215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: Dodge_Right_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\RunningJump_Animation\Camera
-    Right
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Run_Animation\Camera_Right
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
   RenderHeight: 1080
@@ -2601,8 +2607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: RunningJump_Front_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\RunningJump_Animation\Camera
-    Front
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Run_Animation\Camera_Front
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
   RenderHeight: 1080
@@ -2901,8 +2906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: Jump_Back_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\RunningJump_Animation\Camera
-    Back
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Ortho\Run_Animation\Camera_Back
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
   RenderHeight: 1080
@@ -3016,8 +3020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FileName: RunningJump_Left_
-  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\RunningJump_Animation\Camera
-    Left
+  TargetFolder: Rotoscopic Animations\Rotoscopic Captures\Characters\Cop\Diagonal\Run_Animation\Camera_Left
   TargetRenderTexture: {fileID: 8400000, guid: 7027b73d7f3f40d4290437ad8ad64fe8, type: 2}
   RenderWidth: 1920
   RenderHeight: 1080

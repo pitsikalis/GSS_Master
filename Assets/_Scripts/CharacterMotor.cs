@@ -17,6 +17,9 @@ public class CharacterMotor : MonoBehaviour
 
     public bool IsRunning = false;
     public bool IsAttacking = false;
+    public bool IsJumping = false;
+    public bool InAction  = false;
+
     public bool IsDodging = false;
 
     public Animator MyAnimator;
@@ -52,7 +55,18 @@ public class CharacterMotor : MonoBehaviour
         MyAnimator.SetFloat("Speed", Movement.sqrMagnitude);
 
 
-       
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            IsRunning = true;
+            MyAnimator.SetBool("Running", true);
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            IsRunning = false;
+            MyAnimator.SetBool("Running", false);
+        }
+
 
         if (Movement.x >= 0.01f)
         {
@@ -107,24 +121,27 @@ public class CharacterMotor : MonoBehaviour
     void FixedUpdate()
     {
         //Movement
-        if (!IsAttacking )
+        if (!InAction )
         {
-            //if (Input.GetKey(KeyCode.LeftShift))
-            //{
-            //    IsRunning = true;
-            //    MyRigidbody.MovePosition(MyRigidbody.position + Movement * RunSpeed * Time.deltaTime);
-            //}
-           if(!IsDodging)
+
+
+            if (!IsRunning)
             {
-                IsRunning = false;
                 MyRigidbody.MovePosition(MyRigidbody.position + Movement * MoveSpeed * Time.deltaTime);
             }
+            else 
+            {
+                MyRigidbody.MovePosition(MyRigidbody.position + Movement * RunSpeed * Time.deltaTime);
+            }
+                
+          
         }
       
 
         //Attack
         if (Input.GetKeyDown(KeyCode.E))
         {
+            InAction = true;
             IsAttacking = true;
             MyAnimator.SetBool("Attack", true);
 
@@ -133,27 +150,47 @@ public class CharacterMotor : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.E))
         {
+            InAction = false;
             IsAttacking = false;
             MyAnimator.SetBool("Attack", false);
             OnAttackExit.Invoke();
         }
 
         //Dodge
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
+            InAction = true;
             IsDodging = true;
             MyAnimator.SetBool("Dodge", true);
         }
 
        
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.Q))
         {
+            InAction = false;
             IsDodging = false;
             MyAnimator.SetBool("Dodge", false);
         }
 
 
+        //Jump
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            InAction = true;
+            IsJumping = true;
+            MyAnimator.SetBool("Jump", true);
 
+            OnAttackEnter.Invoke();
+        }
 
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            InAction = false;
+            IsJumping = false;
+            MyAnimator.SetBool("Jump", false);
+            OnAttackExit.Invoke();
+        }
+
+        
     }
 }
