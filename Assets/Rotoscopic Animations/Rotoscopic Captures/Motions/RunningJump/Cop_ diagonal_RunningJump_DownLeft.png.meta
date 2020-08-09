@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: 2eb2348c0eb25a64f993f8b9b23cedd3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7739883324425794205
+    second: Cop_ diagonal_RunningJump_DownLeft_0
+  - first:
+      213: -5645743984029628250
+    second: Cop_ diagonal_RunningJump_DownLeft_1
+  - first:
+      213: 5744522067533424455
+    second: Cop_ diagonal_RunningJump_DownLeft_2
+  - first:
+      213: -3481713396033830729
+    second: Cop_ diagonal_RunningJump_DownLeft_3
+  - first:
+      213: 4930281500319329886
+    second: Cop_ diagonal_RunningJump_DownLeft_4
+  - first:
+      213: 7210228618118413751
+    second: Cop_ diagonal_RunningJump_DownLeft_5
+  - first:
+      213: -3911615995315739843
+    second: Cop_ diagonal_RunningJump_DownLeft_6
+  - first:
+      213: -5016865291564759752
+    second: Cop_ diagonal_RunningJump_DownLeft_7
+  - first:
+      213: 8287685629087594995
+    second: Cop_ diagonal_RunningJump_DownLeft_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -85,11 +112,158 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cop_ diagonal_RunningJump_DownLeft_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1993
+        width: 663
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d81a4cf19669490800000000000000
+      internalID: -7739883324425794205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_ diagonal_RunningJump_DownLeft_1
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1993
+        width: 663
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a88d1b42c946a1b0800000000000000
+      internalID: -5645743984029628250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_ diagonal_RunningJump_DownLeft_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1335
+        width: 663
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747e8b77264a8bf40800000000000000
+      internalID: 5744522067533424455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_ diagonal_RunningJump_DownLeft_3
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1330
+        width: 663
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b04fabfc187eafc0800000000000000
+      internalID: -3481713396033830729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_ diagonal_RunningJump_DownLeft_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 667
+        width: 663
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ea63d17e0eb6440800000000000000
+      internalID: 4930281500319329886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_ diagonal_RunningJump_DownLeft_5
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 667
+        width: 663
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdbd4c0ab0ef0460800000000000000
+      internalID: 7210228618118413751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_ diagonal_RunningJump_DownLeft_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 663
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3328751af527b9c0800000000000000
+      internalID: -3911615995315739843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b0e3164d716732c4daadfbe2a2128dcc
     internalID: 0
     vertices: []
     indices: 

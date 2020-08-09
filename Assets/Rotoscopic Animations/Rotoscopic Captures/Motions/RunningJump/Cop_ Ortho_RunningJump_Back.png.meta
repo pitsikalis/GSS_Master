@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: 86d31552932100c4e814880ba64ed78e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4242709991506697851
+    second: Cop_ Ortho_RunningJump_Back_0
+  - first:
+      213: -4829385752262511713
+    second: Cop_ Ortho_RunningJump_Back_1
+  - first:
+      213: -4808735486458875385
+    second: Cop_ Ortho_RunningJump_Back_2
+  - first:
+      213: 1155360618147500983
+    second: Cop_ Ortho_RunningJump_Back_3
+  - first:
+      213: -4261922844765892519
+    second: Cop_ Ortho_RunningJump_Back_4
+  - first:
+      213: -7815696662400880046
+    second: Cop_ Ortho_RunningJump_Back_5
+  - first:
+      213: 5827482574288922343
+    second: Cop_ Ortho_RunningJump_Back_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -85,11 +106,158 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cop_ Ortho_RunningJump_Back_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1993
+        width: 663
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5812e37ddbdde15c0800000000000000
+      internalID: -4242709991506697851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_ Ortho_RunningJump_Back_1
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1993
+        width: 663
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f937f09de339afcb0800000000000000
+      internalID: -4829385752262511713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_ Ortho_RunningJump_Back_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1330
+        width: 663
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702bdc68d80f34db0800000000000000
+      internalID: -4808735486458875385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_ Ortho_RunningJump_Back_3
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1330
+        width: 663
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b358206c5aa80010800000000000000
+      internalID: 1155360618147500983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_ Ortho_RunningJump_Back_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 667
+        width: 663
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9505b99d0cb9ad4c0800000000000000
+      internalID: -4261922844765892519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_ Ortho_RunningJump_Back_5
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 667
+        width: 663
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252b36d7b41198390800000000000000
+      internalID: -7815696662400880046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cop_ Ortho_RunningJump_Back_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 663
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e62547a6806fd050800000000000000
+      internalID: 5827482574288922343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 207a77ed97d658e4181460dcc0fdd4ea
     internalID: 0
     vertices: []
     indices: 
