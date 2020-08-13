@@ -5,13 +5,16 @@ using UnityEngine;
 
 public class CharacterMotor : MonoBehaviour
 {
-   
+
+    public LayerMask groundLayers;
+
+    public float JumpForce = 5f;
 
     public float MoveSpeed = 5f;
 
     public float RunSpeed = 8f;
 
-    public Rigidbody MyRigidbody;
+   
 
     public Vector3  Movement;
 
@@ -24,8 +27,9 @@ public class CharacterMotor : MonoBehaviour
 
     public Animator MyAnimator;
 
-   
-  
+    private SphereCollider SphereCol;
+    private Rigidbody MyRigidbody;
+
 
     public float CurrentDirection;
     public float LastDirection;
@@ -40,7 +44,8 @@ public class CharacterMotor : MonoBehaviour
     void Start()
     {
         MyAnimator = gameObject.GetComponent<Animator>();
-
+        SphereCol = gameObject.GetComponent<SphereCollider>();
+        MyRigidbody = gameObject.GetComponent<Rigidbody>();
         CurrentDirection = LastDirection = PastDirection = 1;
     }
 
@@ -54,6 +59,61 @@ public class CharacterMotor : MonoBehaviour
         MyAnimator.SetFloat("Vertical", Movement.z);
         MyAnimator.SetFloat("Speed", Movement.sqrMagnitude);
 
+        //Attack
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            InAction = true;
+            IsAttacking = true;
+            MyAnimator.SetBool("Attack", true);
+
+            OnAttackEnter.Invoke();
+        }
+
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+            InAction = false;
+            IsAttacking = false;
+            MyAnimator.SetBool("Attack", false);
+            OnAttackExit.Invoke();
+        }
+
+        //Dodge
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            InAction = true;
+            IsDodging = true;
+            MyAnimator.SetBool("Dodge", true);
+        }
+
+
+        if (Input.GetKeyUp(KeyCode.Q))
+        {
+            InAction = false;
+            IsDodging = false;
+            MyAnimator.SetBool("Dodge", false);
+        }
+
+
+        //Jump
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            InAction = true;
+            IsJumping = true;
+
+            MyAnimator.SetBool("Jump", true);
+            MyRigidbody.AddForce(Vector3.up * JumpForce, ForceMode.Impulse);
+            OnAttackEnter.Invoke();
+        }
+
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            InAction = false;
+            IsJumping = false;
+            MyAnimator.SetBool("Jump", false);
+            OnAttackExit.Invoke();
+        }
+
+        //Movement
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
@@ -115,6 +175,8 @@ public class CharacterMotor : MonoBehaviour
 
         }
 
+      
+
 
     }
 
@@ -136,61 +198,12 @@ public class CharacterMotor : MonoBehaviour
                 
           
         }
-      
-
-        //Attack
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            InAction = true;
-            IsAttacking = true;
-            MyAnimator.SetBool("Attack", true);
-
-            OnAttackEnter.Invoke();
-        }
-
-        if (Input.GetKeyUp(KeyCode.E))
-        {
-            InAction = false;
-            IsAttacking = false;
-            MyAnimator.SetBool("Attack", false);
-            OnAttackExit.Invoke();
-        }
-
-        //Dodge
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            InAction = true;
-            IsDodging = true;
-            MyAnimator.SetBool("Dodge", true);
-        }
-
-       
-        if (Input.GetKeyUp(KeyCode.Q))
-        {
-            InAction = false;
-            IsDodging = false;
-            MyAnimator.SetBool("Dodge", false);
-        }
-
-
-        //Jump
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            InAction = true;
-            IsJumping = true;
-            MyAnimator.SetBool("Jump", true);
-
-            OnAttackEnter.Invoke();
-        }
-
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            InAction = false;
-            IsJumping = false;
-            MyAnimator.SetBool("Jump", false);
-            OnAttackExit.Invoke();
-        }
-
-        
     }
+
+    //private bool IsGrounded()
+    //{
+    //    return Physics.CheckCapsule(SphereCol.bounds.center, new Vector3 (SphereCol.bounds.center.x, SphereCol.bounds.min.y, SphereCol.bounds.min.y, SphereCol.bounds.center.z),
+    //        SphereCol.radius * 0.9f, groundLayers);
+         
+    //}
 }
