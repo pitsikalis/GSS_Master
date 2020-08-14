@@ -62,57 +62,26 @@ public class CharacterMotor : MonoBehaviour
         //Attack
         if (Input.GetKeyDown(KeyCode.E))
         {
-            InAction = true;
-            IsAttacking = true;
-            MyAnimator.SetBool("Attack", true);
-
-            OnAttackEnter.Invoke();
+            StartAttack();
         }
-
-        if (Input.GetKeyUp(KeyCode.E))
-        {
-            InAction = false;
-            IsAttacking = false;
-            MyAnimator.SetBool("Attack", false);
-            OnAttackExit.Invoke();
-        }
+   
 
         //Dodge
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            InAction = true;
-            IsDodging = true;
-            MyAnimator.SetBool("Dodge", true);
-        }
-
-
-        if (Input.GetKeyUp(KeyCode.Q))
-        {
-            InAction = false;
-            IsDodging = false;
-            MyAnimator.SetBool("Dodge", false);
+            StartDodge();
         }
 
 
         //Jump
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            InAction = true;
-            IsJumping = true;
 
             MyAnimator.SetBool("Jump", true);
-            MyRigidbody.AddForce(Vector3.up * JumpForce, ForceMode.Impulse);
-            OnAttackEnter.Invoke();
+            StartJump();
         }
 
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            InAction = false;
-            IsJumping = false;
-            MyAnimator.SetBool("Jump", false);
-            OnAttackExit.Invoke();
-        }
-
+        
         //Movement
 
         if (Input.GetKey(KeyCode.LeftShift))
@@ -199,11 +168,57 @@ public class CharacterMotor : MonoBehaviour
           
         }
     }
+    void EndJump()
+    {
+        InAction = false;
+        IsJumping = false;
+        MyAnimator.SetBool("Jump", false);
+    }
+
+    void StartJump()
+    {
+        InAction = true;
+        IsJumping = true;
+
+        MyRigidbody.AddForce(Vector3.up * JumpForce, ForceMode.Impulse);
+    }
+    void EndAttack()
+    {
+        InAction = false;
+        IsAttacking = false;
+        MyAnimator.SetBool("Attack", false);
+        OnAttackExit.Invoke();
+    }
+
+    void StartAttack()
+    {
+        InAction = true;
+        IsAttacking = true;
+        MyAnimator.SetBool("Attack", true);
+
+        OnAttackEnter.Invoke();
+    }
+
+    void StartDodge()
+    {
+
+        InAction = true;
+        IsDodging = true;
+        MyAnimator.SetBool("Dodge", true);
+    }
+
+    void EndDodge()
+    {
+        InAction = false;
+        IsDodging = false;
+        MyAnimator.SetBool("Dodge", false);
+    }
+
 
     //private bool IsGrounded()
     //{
     //    return Physics.CheckCapsule(SphereCol.bounds.center, new Vector3 (SphereCol.bounds.center.x, SphereCol.bounds.min.y, SphereCol.bounds.min.y, SphereCol.bounds.center.z),
     //        SphereCol.radius * 0.9f, groundLayers);
-         
+
     //}
 }

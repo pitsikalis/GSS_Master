@@ -3844,7 +3844,7 @@ MonoBehaviour:
   groundLayers:
     serializedVersion: 2
     m_Bits: 0
-  JumpForce: 8
+  JumpForce: 4
   MoveSpeed: 2
   RunSpeed: 5
   Movement: {x: 0, y: 0, z: 0}
