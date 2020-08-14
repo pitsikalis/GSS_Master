@@ -23,7 +23,7 @@ MonoBehaviour:
   m_Clips: []
   m_Markers:
     m_Objects: []
---- !u!114 &-3162151002453132952
+--- !u!114 &-2609134988980739318
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,7 +37,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: 
   VirtualCamera:
-    exposedName: 9690d7b1fec73464e85588fbd5e4bb07
+    exposedName: be5d24115d658d046a837b44aecdfdfa
     defaultValue: {fileID: 0}
 --- !u!114 &-2290223938781122242
 MonoBehaviour:
@@ -63,12 +63,12 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: -3162151002453132952}
-    m_Duration: 3.716666666666667
+    m_Asset: {fileID: -2609134988980739318}
+    m_Duration: 1.2833333333333334
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2290223938781122242}
-    m_EaseInDuration: 1.29
-    m_EaseOutDuration: 1.24
+    m_EaseInDuration: 0.31
+    m_EaseOutDuration: 0.28
     m_BlendInDuration: -1
     m_BlendOutDuration: -1
     m_MixInCurve:
@@ -128,7 +128,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam1 (1)
+    m_DisplayName: CM vcam1
   m_Markers:
     m_Objects: []
 --- !u!114 &11400000

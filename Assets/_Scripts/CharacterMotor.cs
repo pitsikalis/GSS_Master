@@ -76,9 +76,12 @@ public class CharacterMotor : MonoBehaviour
         //Jump
         if (Input.GetKeyDown(KeyCode.Space))
         {
-
-            MyAnimator.SetBool("Jump", true);
-            StartJump();
+            if (!IsJumping)
+            {
+                MyAnimator.SetBool("Jump", true);
+                StartJump();
+            }
+         
         }
 
         
@@ -215,10 +218,9 @@ public class CharacterMotor : MonoBehaviour
     }
 
 
-    //private bool IsGrounded()
-    //{
-    //    return Physics.CheckCapsule(SphereCol.bounds.center, new Vector3 (SphereCol.bounds.center.x, SphereCol.bounds.min.y, SphereCol.bounds.min.y, SphereCol.bounds.center.z),
-    //        SphereCol.radius * 0.9f, groundLayers);
+    private bool IsGrounded()
+    {
+        return Physics.Raycast(gameObject.transform.position, Vector3.down, 0.9f, groundLayers);
 
-    //}
+    }
 }
