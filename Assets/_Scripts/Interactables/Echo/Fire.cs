@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Fire : MonoBehaviour
 {
-    public LayerMask layerMask;
+    
 
 
     [SerializeField] private UnityEvent OnActivated;
