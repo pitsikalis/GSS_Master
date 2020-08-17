@@ -14,7 +14,7 @@ public class CharacterMotor : MonoBehaviour
 
     public float RunSpeed = 8f;
 
-   
+    private bool isgrounded = true;
 
     public Vector3  Movement;
 
@@ -38,6 +38,8 @@ public class CharacterMotor : MonoBehaviour
 
     public UnityEvent OnAttackEnter;
     public UnityEvent OnAttackExit;
+    public UnityEvent OnRunEnter;
+    public UnityEvent OnRunExit;
 
 
     // Start is called before the first frame update
@@ -52,110 +54,119 @@ public class CharacterMotor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Movement.x = Input.GetAxisRaw("Horizontal");
-        Movement.z = Input.GetAxisRaw("Vertical");
+           Movement.x = Input.GetAxisRaw("Horizontal");
+            Movement.z = Input.GetAxisRaw("Vertical");
 
-        MyAnimator.SetFloat("Horizontal", Movement.x);
-        MyAnimator.SetFloat("Vertical", Movement.z);
-        MyAnimator.SetFloat("Speed", Movement.sqrMagnitude);
-
-        //Attack
-        if (Input.GetKeyDown(KeyCode.E))
+            MyAnimator.SetFloat("Horizontal", Movement.x);
+            MyAnimator.SetFloat("Vertical", Movement.z);
+            MyAnimator.SetFloat("Speed", Movement.sqrMagnitude);
+        if (isgrounded)
         {
-            StartAttack();
-        }
-   
 
-        //Dodge
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            StartDodge();
-        }
+            //Attack
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                StartAttack();
+            }
 
 
-        //Jump
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (!IsJumping)
+            //Dodge
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                StartDodge();
+            }
+
+
+            //Jump
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 MyAnimator.SetBool("Jump", true);
                 StartJump();
             }
-         
-        }
-
-        
-        //Movement
-
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            IsRunning = true;
-            MyAnimator.SetBool("Running", true);
-        }
-
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            IsRunning = false;
-            MyAnimator.SetBool("Running", false);
-        }
 
 
-        if (Movement.x >= 0.01f)
-        {
-            CurrentDirection = 2;
-        }
-        else if (Movement.x <= -0.01f)
-        {
-            CurrentDirection = 4;
-        }
+            //Movement
 
-        if (Movement.z >= 0.01f)
-        {
-            CurrentDirection = 1;
-        }
-        else if (Movement.z <= -0.01f)
-        {
-            CurrentDirection = 3;
-        }
-
-        if (LastDirection != CurrentDirection)
-        {
-            PastDirection = LastDirection;
-            LastDirection = CurrentDirection;
-
-            MyAnimator.SetFloat("LastKnownDirection", CurrentDirection);
-
-            if (CurrentDirection == 1)
+            if (Input.GetKey(KeyCode.LeftShift))
             {
-                Debug.Log("idle up");
+                StartRun();
             }
 
-            if (CurrentDirection == 2)
+            if (Input.GetKeyUp(KeyCode.LeftShift))
             {
-                Debug.Log("idle right");
+                EndRun();
+                EndRun();
             }
 
-            if (CurrentDirection == 3)
+
+            if (Movement.x >= 0.01f)
             {
-                Debug.Log("idle down");
+                CurrentDirection = 2;
+            }
+            else if (Movement.x <= -0.01f)
+            {
+                CurrentDirection = 4;
             }
 
-            if (CurrentDirection == 4)
+            if (Movement.z >= 0.01f)
             {
-                Debug.Log("idle left");
+                CurrentDirection = 1;
+            }
+            else if (Movement.z <= -0.01f)
+            {
+                CurrentDirection = 3;
             }
 
+            if (LastDirection != CurrentDirection)
+            {
+                PastDirection = LastDirection;
+                LastDirection = CurrentDirection;
+
+                MyAnimator.SetFloat("LastKnownDirection", CurrentDirection);
+
+                if (CurrentDirection == 1)
+                {
+                    //Debug.Log("idle up");
+                }
+
+                if (CurrentDirection == 2)
+                {
+                    //Debug.Log("idle right");
+                }
+
+                if (CurrentDirection == 3)
+                {
+                    //Debug.Log("idle down");
+                }
+
+                if (CurrentDirection == 4)
+                {
+                    //Debug.Log("idle left");
+                }
+            }
         }
+    }
 
-      
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.layer == 9)
+        {
+            isgrounded = true;
+        }
+    }
 
-
+    void OnCollisionExit(Collision other)
+    {
+        if (other.gameObject.layer == 9)
+        {
+            isgrounded = false;
+        }
     }
 
     void FixedUpdate()
     {
         //Movement
-        if (!InAction )
+        if (!InAction)
         {
 
 
@@ -176,6 +187,20 @@ public class CharacterMotor : MonoBehaviour
         InAction = false;
         IsJumping = false;
         MyAnimator.SetBool("Jump", false);
+    }
+
+    void StartRun()
+    {
+        IsRunning = true;
+        MyAnimator.SetBool("Running", true);
+        OnRunEnter.Invoke();
+    }
+
+    void EndRun()
+    {
+        IsRunning = false;
+        MyAnimator.SetBool("Running", false);
+        OnRunExit.Invoke();
     }
 
     void StartJump()
@@ -218,9 +243,5 @@ public class CharacterMotor : MonoBehaviour
     }
 
 
-    private bool IsGrounded()
-    {
-        return Physics.Raycast(gameObject.transform.position, Vector3.down, 0.9f, groundLayers);
-
-    }
+  
 }
