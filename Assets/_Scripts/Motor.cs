@@ -6,7 +6,16 @@ using Com.LuisPedroFonseca.ProCamera2D.TopDownShooter;
 
 public class Motor : MonoBehaviour
 {
+    public LayerMask groundLayers;
+
     private InputHandler _Input;
+
+    private Rigidbody MyRigidbody;
+
+    private CapsuleCollider MyCollider;
+   
+    [SerializeField]
+    private float JumpForce;
 
     [SerializeField]
     private float moveSpeed;
@@ -21,6 +30,8 @@ public class Motor : MonoBehaviour
     private Camera _camera;
     private void Awake()
     {
+        MyRigidbody = GetComponent<Rigidbody>();
+        MyCollider = GetComponent<CapsuleCollider>();
         _Input = GetComponent<InputHandler>();
     }
 
@@ -37,9 +48,25 @@ public class Motor : MonoBehaviour
         {
             RotateTowardMouseVector();
         }
-        
+
+        //Jump
+        if (IsGrounded() && Input.GetKeyDown(KeyCode.Space))
+        {
+           // MyAnimator.SetBool("Jump", true);
+            StartJump();
+        }
 
 
+    }
+
+    private bool IsGrounded()
+    {
+        return Physics.CheckCapsule(MyCollider.bounds.center, new Vector3(MyCollider.bounds.center.x, MyCollider.bounds.min.y, MyCollider.bounds.center.z), MyCollider.radius * 3f, groundLayers);
+    }
+
+    private void StartJump()
+    {
+        MyRigidbody.AddForce(Vector3.up * JumpForce, ForceMode.Impulse);
     }
     private void RotateTowardMouseVector()
     {
