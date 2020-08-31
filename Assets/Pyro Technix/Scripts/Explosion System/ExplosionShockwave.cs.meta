@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 8c4cf1494ca105442a5a380eb7b4289e
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - shockwaveShader: {fileID: 4800000, guid: c13b952aa88b1644d8f586541fc03062, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
