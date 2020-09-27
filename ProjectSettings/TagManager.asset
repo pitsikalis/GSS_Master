@@ -4,13 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Stone
-  - Character 1
-  - Character 2
-  - Enemy
-  - Movable
-  - Fire
-  - Water
+  - Wall
+  - Attractable
   layers:
   - Default
   - TransparentFX
@@ -20,9 +15,9 @@ TagManager:
   - UI
   - 
   - 
-  - NotVisible
-  - Ground
-  - Character
+  - Wall
+  - 
+  - 
   - 
   - 
   - 
