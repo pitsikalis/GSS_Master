@@ -1,0 +1,43 @@
+Instructions
+
+Crumble Static Effect
+
+This is a script based effect that works with Unity's default physics system to create a crumble and rebuilding / climbing effect, in vertical world space, of multiple pre set rigid body pieces. The effect is mostly physics based to create an unpredictable and dynamic rebuilding effect every time the script is activated. This effect is great for broken crumbling pieces of columns, statues, rock golems, walls or buildings.
+
+The script can be assigned to any parent game object with pre created, multiple child rigid body objects. All pieces used in the effect can easily be manually placed into a desired start position and set with rigid body and mesh collider.
+
+- Features -
+- There are five different build options to make multiple variations of rebuild available.
+- Demo scene shows 6 different setup variations the script can be used.
+
+Note:
+Being this is a dynamic effect, for best results try not to use too many very small pieces in any of your object setup and keep the ground surface as flat as possible around the effect area to prevent any of the effect pieces from falling in cracks or off edges that they cannot come back from.
+
+
+Script: CrumblerStatic
+
+Activate - Enable / disable effect.
+BuildType - Build type, Vertical in world space
+Speed - Speed of each object moves back to start position
+GatherSpeed - Speed of each object moves towards center of original shape
+ClimbSpeed - Speed of each object to start moving towards start position
+VertBurst - Each object rise speed in the world Y direction
+UseSeek - Each object will use a RayCast to find a path back to start position
+SetOnBuild - Each object will be set to Kinematic as it reaches it's start position
+UseSnap - All objects will move to start position at the same time
+UseSwirl - All objects will move in a swirl pattern back to their start positions
+SwirlPower - Strength of Swirl effect
+UseTimer - Enable and set the delay time in seconds, of when the script will auto activate (great for using in combination with collision script)
+Timer - Number of seconds to auto activate
+PreviewColor - Editor preview color of object start positions and current climb position
+PreviewSize - Editor preview size of object start positions and current climb position
+
+
+Script: CrumblerCollider
+
+This script can be assigned to any physics object that will collide with a group of objects using the "CrumblerStatic" script (Refer to the "Parts Totum" example in the demo scene)
+
+MinMagnitude - minimum magnitude for object collider to activate Crumble script (UseTrigger must be false)
+UseTrigger - object's trigger will be used to activate the Crumble script (Requires an attached collider to be a trigger)
+
+

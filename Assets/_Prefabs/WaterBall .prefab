@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5171539116361890482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 759867588577338213}
+  - component: {fileID: 6747408397589979420}
+  - component: {fileID: 7077230629452787690}
+  m_Layer: 0
+  m_Name: 'WaterBall '
+  m_TagString: Water
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &759867588577338213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5171539116361890482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.64, y: 14.07, z: -2.0028398}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2490874802588600022}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6747408397589979420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5171539116361890482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1061a26dbcc6c204fbe4c3d86ace2934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaterDamage: 30
+  WaterHealth: 100
+  ScaleDownTime: 5
+  SplashPrefab: {fileID: 1484242814379194300, guid: 35008eb431e047042b3ebff3d25b0dd4,
+    type: 3}
+  OnFire: 0
+  OnExhaustion:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3290325619014717653}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5171539116361890482}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnGroundCollision:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6747408397589979420}
+        m_MethodName: KillWater
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!54 &7077230629452787690
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5171539116361890482}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1001 &8244504724061343691
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 759867588577338213}
+    m_Modifications:
+    - target: {fileID: 5766541511916041033, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: OnExhaustion.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766541511916041033, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: OnExhaustion.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766541511916041033, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: OnExhaustion.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766541511916041033, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: OnExhaustion.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766541511916041033, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: OnExhaustion.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835257957188045085, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835257957188045085, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835257957188045085, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835257957188045085, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835257957188045085, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835257957188045085, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835257957188045085, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835257957188045085, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835257957188045085, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835257957188045085, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835257957188045085, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6900579962316234526, guid: e5114a02b5cb7cd48aab30c605545e6f,
+        type: 3}
+      propertyPath: m_Name
+      value: WaterBallBody
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e5114a02b5cb7cd48aab30c605545e6f, type: 3}
+--- !u!1 &3290325619014717653 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6900579962316234526, guid: e5114a02b5cb7cd48aab30c605545e6f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8244504724061343691}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2490874802588600022 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5835257957188045085, guid: e5114a02b5cb7cd48aab30c605545e6f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8244504724061343691}
+  m_PrefabAsset: {fileID: 0}
