@@ -7,14 +7,20 @@ public class BombTrigger : MonoBehaviour
 {
  
 
-    public bool PlayOnAwake;
+    //public bool PlayOnAwake;
   
     [HideInInspector]
     public bool BombIsActive;
     
     public bool CounterIsActive;
- 
+
+    public bool OnFire; // For Debug
+
     public float CounterTime;
+
+    private Animator MyAnim;
+
+
     [Space()]
     [SerializeField]
     private UnityEvent OnActivation;
@@ -25,10 +31,13 @@ public class BombTrigger : MonoBehaviour
 
     void Start()
     {
-        if(PlayOnAwake)
-        {
-            BombIsActive = true; 
-        }
+
+        MyAnim = this.GetComponent<Animator>();
+
+        //if(PlayOnAwake)
+        //{
+        //    BombIsActive = true; 
+        //}
     }
 
     // Update is called once per frame
@@ -38,6 +47,15 @@ public class BombTrigger : MonoBehaviour
         {
             StartCountDown();
             BombIsActive = false;
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Fire")
+        {
+            OnFire = true; // For Debug
+            MyAnim.SetBool("OnFire", true);
         }
     }
 
@@ -54,6 +72,11 @@ public class BombTrigger : MonoBehaviour
 
         OnActivation.Invoke();
 
+    }
+
+    private void Activate()
+    {
+        OnActivation.Invoke();
     }
 
     private void Explode()

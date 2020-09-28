@@ -22,7 +22,7 @@ public class CollaptionManager : MonoBehaviour
         float TestVelocity = other.relativeVelocity.magnitude;
         Debug.Log(TestVelocity);
       
-        if (/*other.gameObject.tag == "Attractable" &&*/ other.relativeVelocity.magnitude >= CollapsePower)
+        if (other.gameObject.CompareTag("Attractable") && other.relativeVelocity.magnitude >= CollapsePower)
         {
             if (!PlayedOnce)
             {
